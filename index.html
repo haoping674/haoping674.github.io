@@ -8,6 +8,8 @@
   <title>個人網頁</title>
   <link rel="icon" href="images/icon.svg" type="image/x-icon">
 
+  <link rel="stylesheet" href="css/main.css">
+
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
     integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
@@ -18,16 +20,19 @@
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- plausible -->
   <script defer data-domain="haoping674.github.io" src="https://plausible.io/js/script.js"></script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDW1XBL50S"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-DDW1XBL50S');
   </script>
 
@@ -62,19 +67,19 @@
         <div class="col-lg-4 col-md-6 col-sm-8 mx-auto">
           <img src="images/avatar.png" alt="My avatar" class="rounded img-fluid">
         </div>
-        <div class="col-lg-8 col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+        <div class="col-lg-8 col-md-6 col-sm-12 d-flex flex-column justify-content-center text-left">
           <h1 class="font-weight-bold">關於我</h1>
-          <p class="lead">
-            我是張皓評，一個24歲應屆畢業生，還在努力求職中，目前在學習React.js，希望能夠在這個領域找到自己的興趣，並且能夠繼續學習下去。
+          <p class="lead py-3" style="text-align: justify;">
+            我叫張皓評，也可以叫我 Fred，112 年畢業於國立高雄科技大學資訊工程學系碩士班電腦視覺研究室。對神經網路有著濃厚的興趣，演算法開發就像是研究人類腦的奧妙，擅長使用 PyTorch 搭配 Hugging Face 的開源模型開發模型。而網站及 Unity 則是做為一個愛玩電腦的人，總是希望自己可以開發出很酷炫的網頁或是遊戲，其中經常使用 jQuery 及 Bootstrap 進行網站設計。因此，希望能夠找到神經網路開發、網站開發或是 Unity 開發的工作。
           </p>
           <p>
-            <a href="#" class="btn btn-primary">聯絡我</a>
+            <a href="https://github.com/haoping674" class="text-reset"><i class="fa fa-2x fa-solid fa-github"></i></a>
           </p>
         </div>
       </div>
     </section>
 
-    <div id="project" class="py-5 bg-light">
+    <section id="project" class="py-5 bg-light">
       <div class="container">
         <h1 class="font-weight-bold text-center">專案</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
@@ -88,7 +93,7 @@
                   <div class="btn-group">
                     <a href="./Projects/Unity/index.html" class="btn btn-sm btn-outline-secondary">View</a>
                   </div>
-                  <small class="text-muted">2017</small>
+                  <small class="text-muted">2018</small>
                 </div>
               </div>
             </div>
@@ -110,7 +115,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
   </main>
 
@@ -119,6 +124,9 @@
       <p>Copyright &copy; 2023 Haoping. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 
